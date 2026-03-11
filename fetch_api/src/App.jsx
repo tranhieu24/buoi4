@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState(null);
 
 
-  var url = "https://jsonplaceholder.typicode.com/users2";
+  var url = "https://jsonplaceholder.typicode.com/users";
   // useEffect(()=>{
   //   var url = "https://jsonplaceholder.typicode.com/users";
   //   var fetchdata = fetch(url);
