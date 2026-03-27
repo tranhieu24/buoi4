@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Search input */
+.search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search:focus {
+  border-color: #007bff;
+}
+
+/* List */
+.list {
+  display: grid;
+  gap: 15px;
+}
+
+/* Card */
+.card {
+  padding: 15px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+}
